@@ -15,7 +15,7 @@ The user should be able to:
 - View the total duration of each workout from the past seven workouts on the stats page.
 
 ## Problems I Faced
-![test image 1](assets\heroku-img.png)
+[![heroku-img.png](https://i.postimg.cc/RZCh96xm/heroku-img.png)](https://postimg.cc/0b3P0NNX)
 - I just couldn't deploy to heroku and I kept running into this error
 - I was able to run on my localhost:3000
-![test image 1](assets\localhost-img.png)
+[![localhost-img.png](https://i.postimg.cc/C1ndt3Tf/localhost-img.png)](https://postimg.cc/ZBZTvDqT)
