@@ -1,8 +1,12 @@
 {
   "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "",
+  "description": "workout_tracker",
   "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoderLeE920/HW-18-workOut-Tracker/tree/main/Develop"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -21,7 +25,10 @@
     "modules": "^0.4.0",
     "mongoose": "^5.3.16",
     "morgan": "^1.9.1",
-    "node": "^16.3.0"
+    "node": "v16.x"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "devDependencies": {
     "dotenv": "^8.6.0"
