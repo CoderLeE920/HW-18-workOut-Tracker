@@ -1,37 +1,20 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "develop",
   "version": "1.0.0",
-  "description": "workout_tracker",
+  "description": "",
   "main": "server.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ahmadghizzawi/node-express-mongoose-skeleton.git"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeders/seed.js",
-    "build": "webpack",
-    "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
-    "heroku-postbuild": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
-    "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies."
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "module": "^1.2.5",
     "modules": "^0.4.0",
-    "mongodb": "^3.6.9",
-    "mongoose": "^5.12.15",
+    "mongoose": "^5.3.16",
     "morgan": "^1.9.1",
-    "node": "v16.x",
-    "skeleton": "^0.1.2"
-  },
-  "engines": {
-    "node": "14.x",
-    "npm": "6.x"
+    "node": "^16.3.0"
   },
   "devDependencies": {
     "dotenv": "^8.6.0"
