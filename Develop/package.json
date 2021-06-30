@@ -3,16 +3,23 @@
   "version": "1.0.0",
   "description": "workout",
   "main": "server.js",
-  "dependencies": {
-    "dotenv": "^8.6.0",
-    "express": "^4.17.1",
-    "module": "^1.2.5"
+  "engines": {
+    "node": "12.11.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon --exec babel-node src/server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "modules": "^0.4.0",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1",
+    "node": "^16.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.6.0"
+  }
 }
