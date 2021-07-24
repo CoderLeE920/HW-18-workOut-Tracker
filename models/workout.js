@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const workoutSchema = new Schema({
   day: {
-    type: Number,
+    type: Date,
     default: Date.now
   },
   exercises: 
