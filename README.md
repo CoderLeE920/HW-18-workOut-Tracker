@@ -3,6 +3,7 @@
 ## Table of Content
 * [User Story](#user_story)
 * [Acceptance Criteria](#acceptance_criteria)
+* [Deploy](#deploy)
 * [Problems I Faced](#problems_i_faced)
 * [License](#license)
 
@@ -20,6 +21,9 @@ The user should be able to:
 - View the combined weight of multiple exercises from the past seven workouts on the stats page.
 
 - View the total duration of each workout from the past seven workouts on the stats page.
+
+## Deploy
+(https://hw-18-nosql.herokuapp.com/)
 
 ## Problems I Faced
 [![heroku-img.png](https://i.postimg.cc/RZCh96xm/heroku-img.png)](https://postimg.cc/0b3P0NNX)
